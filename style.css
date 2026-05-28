@@ -250,9 +250,11 @@ nav ul li a:hover {
         border-radius: 8px;
     }
 
+    /* THE FIX IS APPLIED HERE */
     .songBanner {
         width: 100%;
-        height: 180px; /* Resize your background image banner size down */
+        height: 220px; /* Increased height slightly to show more of the body */
+        background-position: top center; /* Keeps the top of the image (the head) visible */
     }
 
     .songList {
